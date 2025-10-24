@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jane Doe - Portfolio</title>
+    <title>Johannes Mohr - Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
   </head>
@@ -10,7 +10,7 @@
     <nav>
       <div id="home">
         <div class="profile_name">
-          Jane Doe
+          Johannes Mohr
           <div class="contact_info">
             <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
           jdoe@jeemail.com
@@ -24,8 +24,9 @@
         </div>
         <div class="topdiv">
           <a class="topmenu" href="#about-me">About Me</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
         </div>
       </div>    
     </nav>
@@ -33,17 +34,17 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+        <img src="https://media.istockphoto.com/id/184986128/photo/male-chimpanzee-in-business-clothes.jpg?s=612x612&w=0&k=20&c=Updpbyhvm-YJLlBfG-GazdXJuqOm1Ed11lER7sDzZuU=" class="profile_image"/>
       </div>
 
       <div>
           <h1>
-            Hi, I'm Jane Doe! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+            Hi, I'm Johannes Mohr! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
           </h1>
           <p>
-            I am a full stack developer with 2 years of experience in both application and presentation layers.
-            I have worked on applications and microservices deployed on IBM Cloud. 
-            I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+            I am an extremely motivated full stack developer with a passion for important phone calls. 
+            I can write a lot of code and collect many bananas in a short amount of time. 
+            When I'm not coding, I enjoy long walks on the beach and swinging from tree to tree.
           </p>
       </div>
     </section>
@@ -66,8 +67,23 @@
           <p>3 years experience</p>
         </div>  
 
-        <!-- Add more skills here -->
+        <div class="skill">
+          <img src="html_finalprojimages/node.png"/>
+          <h6>Node.js</h6>
+          <p>2 years experience</p>
+        </div>  
 
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>4 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/react.png"/>
+          <h6>React</h6>
+          <p>3 years experience</p>
+        </div>  
 
       </div>
     </section>
@@ -81,23 +97,23 @@
 
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>Chatbot</h3>
+            <h3>Calculator</h3>
             <ul>
-              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              <li>Developed a calculator using HTML, CSS and JavaScript</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
+            <h3>Shopping List App</h3>
             <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+              <li>Developed and deployed a progressive web app for a shopping list with a firebase realtime database</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Fashion Website</h3>
+            <h3>Survey App</h3>
             <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+              <li>Developed and deployed a survey app for friends to decide the next holiday</li>
             </ul>
           </div>
     </div>
@@ -111,24 +127,25 @@
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
+          Working with Johannes has been a truly enlightening experience. 
+          He codes faster than most humans — often while juggling bananas. 
+          His debugging process usually involves loud screeching, but somehow it always works. 
+          A natural leader of the jungle and GitHub alike!
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
+          Johannes is a brilliant coder with a deep passion for both JavaScript and ripe bananas. 
+          He approaches every project with contagious enthusiasm and occasionally throws a banana when things compile successfully. 
+          I’d happily work with him on any future banana-based app!
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
+          I collaborated with Johannes during a complex web development project. 
+          His ability to type 120 words per minute with his feet amazed everyone. 
+          He snacks constantly, yet still delivers perfect code. 
+          Truly an asset to any tech-savvy rainforest team! 
           <span>&#8221;</span>
         </div>
       </div>
@@ -150,13 +167,15 @@
 
     <div class="iconbutton">
       <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
       </a>
     </div>
 
     <div class="popup" id="popup" class="flex_center">
       <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
+      <h3>Thanks for the recommendation!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
